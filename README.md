@@ -108,7 +108,7 @@ python src/visualize.py --model_path checkpoints/best_model.pth --num_samples 5
 | Final Mean IoU | **31.41%** | ✅ Reasonable |
 | Training Epochs | **100** | ⏱️ Complete |
 
-<img width="1792" height="491" alt="image" src="https://github.com/user-attachments/assets/f220e617-1ac7-4f1a-a272-5039d8024dda" />
+
 
 
 ###  Per-Class IoU Results
@@ -128,6 +128,11 @@ python src/visualize.py --model_path checkpoints/best_model.pth --num_samples 5
 |  **Column** | **2.47%** |  Very Poor | Thin structures, limited examples |
 |  **Beam** | **0.00%** |  Failed | Extremely sparse in dataset |
 |  **Sofa** | **0.00%** |  Failed | High variation, dataset imbalance |
+
+<img width="1792" height="491" alt="image" src="https://github.com/user-attachments/assets/f220e617-1ac7-4f1a-a272-5039d8024dda" />
+
+<img width="2390" height="1769" alt="result-1" src="https://github.com/user-attachments/assets/fa583c77-94cc-4e3c-8479-f4b4b5976f1a" />
+
 
 ## 🔧 Implementation Details
 
