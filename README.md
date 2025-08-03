@@ -18,6 +18,9 @@ This implementation focuses on **scene semantic segmentation**, classifying ever
 -  **PointNetFeatureExtractor**: Main feature extraction backbone
 -  **PointNetSegmentation**: Complete segmentation model with classification head
 
+  -<img width="1621" height="546" alt="image" src="https://github.com/user-attachments/assets/d4166a19-2b9f-43e4-bf38-1bd8a52b90c5" />
+
+
 ### ✨ Key Features
 -  Input transformation networks for rotation invariance
 -  Optional feature transformation for better alignment
