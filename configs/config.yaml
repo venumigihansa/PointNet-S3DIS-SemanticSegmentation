@@ -1,0 +1,18 @@
+# Configuration for PointNet-S3DIS training
+
+# Dataset settings
+data_dir: ./s3dis_data/processed
+num_points: 4096
+test_area: 5
+
+# Training settings
+batch_size: 16
+num_epochs: 100
+learning_rate: 0.001
+weight_decay: 0.0001
+lr_step_size: 20
+lr_gamma: 0.5
+
+# Model settings
+num_classes: 13
+feature_transform: true
