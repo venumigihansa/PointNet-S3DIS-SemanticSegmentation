@@ -18,7 +18,7 @@ This implementation focuses on **scene semantic segmentation**, classifying ever
 -  **PointNetFeatureExtractor**: Main feature extraction backbone
 -  **PointNetSegmentation**: Complete segmentation model with classification head
 
-  -<img width="1621" height="546" alt="image" src="https://github.com/user-attachments/assets/d4166a19-2b9f-43e4-bf38-1bd8a52b90c5" />
+  <img width="1621" height="546" alt="image" src="https://github.com/user-attachments/assets/d4166a19-2b9f-43e4-bf38-1bd8a52b90c5" />
 
 
 ### ✨ Key Features
@@ -107,6 +107,9 @@ python src/visualize.py --model_path checkpoints/best_model.pth --num_samples 5
 | Best Mean IoU | **36.42%** | ✅ Solid |
 | Final Mean IoU | **31.41%** | ✅ Reasonable |
 | Training Epochs | **100** | ⏱️ Complete |
+
+<img width="1792" height="491" alt="image" src="https://github.com/user-attachments/assets/f220e617-1ac7-4f1a-a272-5039d8024dda" />
+
 
 ###  Per-Class IoU Results
 
